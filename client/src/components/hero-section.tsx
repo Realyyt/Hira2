@@ -11,7 +11,30 @@ export default function HeroSection() {
 
   return (
     <section className="hero-gradient min-h-screen flex items-center pt-16 relative">
-      <div className="absolute inset-0 bg-black/30"></div>
+      {/* Phone mockup background pattern */}
+      <div className="absolute inset-0 opacity-15">
+        {/* Phone outline effect */}
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-96 border-2 border-purple-300/30 rounded-3xl"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-88 bg-gradient-to-br from-purple-400/10 to-purple-600/20 rounded-2xl"></div>
+        
+        {/* Floating feature badges */}
+        <div className="absolute top-1/4 left-1/4 bg-green-500/40 text-white px-3 py-1 rounded-lg text-sm backdrop-blur-sm">
+          End-to-End Encrypted
+        </div>
+        <div className="absolute bottom-1/3 right-1/4 bg-purple-500/40 text-white px-3 py-1 rounded-lg text-sm backdrop-blur-sm">
+          Live Streaming
+        </div>
+        
+        {/* Additional gradient effects */}
+        <div className="absolute inset-0" style={{
+          backgroundImage: `
+            radial-gradient(circle at 20% 30%, rgba(171, 159, 242, 0.2) 0%, transparent 40%),
+            radial-gradient(circle at 80% 70%, rgba(139, 123, 216, 0.15) 0%, transparent 40%),
+            radial-gradient(circle at 50% 50%, rgba(107, 91, 149, 0.1) 0%, transparent 60%)
+          `
+        }}></div>
+      </div>
+      <div className="absolute inset-0 bg-black/40"></div>
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
