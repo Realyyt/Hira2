@@ -1,8 +1,8 @@
-# WhatsApp Clone Project
+# Hira - Social Media & Secure Messaging
 
 ## Overview
 
-This is a full-stack web application that recreates WhatsApp's landing page and core functionality. The project uses a modern tech stack with React for the frontend, Express for the backend, and is configured for deployment on Replit. The application is built to showcase WhatsApp's key features including messaging, voice/video calling, security features, and business tools.
+This is a full-stack web application for Hira, a social media platform that combines public feeds with secure private messaging. The project uses a modern tech stack with React for the frontend, Express for the backend, and is configured for deployment on Replit. The application features a Telegram-inspired dark theme and showcases Hira's core capabilities including social feeds, end-to-end encrypted messaging, live streaming, and community features.
 
 ## System Architecture
 
@@ -38,14 +38,14 @@ This is a full-stack web application that recreates WhatsApp's landing page and 
 - Accessibility features through Radix UI primitives
 
 ### Landing Page Sections
-- **Navigation**: Fixed header with smooth scroll navigation
-- **Hero Section**: Main value proposition with gradient background
-- **Features Section**: Grid of key WhatsApp features with icons
-- **Download Section**: Platform-specific download buttons
-- **Business Section**: WhatsApp Business features and benefits
-- **Security Section**: Privacy and encryption highlights
-- **Statistics Section**: User engagement metrics
-- **Footer**: Links and social media integration
+- **Navigation**: Fixed header with Hira branding and dark theme navigation
+- **Hero Section**: Main value proposition with blue gradient background highlighting social + secure messaging
+- **Features Section**: Grid of Hira's core features including social feeds, encryption, live streaming
+- **Download Section**: Android and iOS download buttons with modern dark design
+- **Social Section**: Showcase of social media features, communities, and content discovery
+- **Security Section**: Privacy and encryption highlights with dark theme
+- **Statistics Section**: User engagement metrics and growth statistics
+- **Footer**: Links and social media integration with Hira branding
 
 ### Database Schema
 - User management system with username/password authentication
@@ -117,15 +117,45 @@ This is a full-stack web application that recreates WhatsApp's landing page and 
 - CSS variable system for consistent theming
 - Lazy loading of non-critical components
 
+## Hira Features (From User Requirements)
+
+### Core Social Features
+- **Public Feeds & Threaded Posts**: Users can create, reply to, like, repost, and share threaded posts
+- **Trending Hashtags**: Real-time trending topics and content discovery
+- **User Profiles**: Customizable bios, profile pictures, banners, verified handles
+- **Content Discovery**: Algorithmic recommendations for users and posts
+
+### Private & Group Messaging  
+- **1:1 & Group Chats**: End-to-end encrypted messaging for individuals and groups
+- **Role-based Access**: Admins, mods, members in group chats
+- **Self-destructing Messages**: Messages that automatically delete after set time in secret chats
+
+### Communication Tools
+- **Voice/Video Calls**: Encrypted 1:1 and group calls, voice messages
+- **Live Streaming**: Host live video sessions with real-time chat interaction
+
+### Security & Privacy
+- **End-to-End Encryption**: Default for all private/group chats and calls
+- **Two-Step Verification**: Secure account login with OTP/email
+- **Screenshot Prevention**: Option to block screenshots in secret chats
+- **Anonymity**: Username-based interaction (no phone number required)
+- **Chat Folders**: Organize chats with custom folders/tabs
+
+### Platform Availability
+- **Mobile Only**: Available on Android and iOS (no web/desktop versions)
+- **Dark Mode**: Telegram-inspired dark theme design
+
 ## Changelog
 
 ```
 Changelog:
-- July 01, 2025. Initial setup
+- July 01, 2025. Initial WhatsApp clone setup
+- July 01, 2025. Transformed to Hira social media app with dark theme, Android/iOS focus, and social features
 ```
 
 ## User Preferences
 
 ```
 Preferred communication style: Simple, everyday language.
+App Requirements: Dark mode, Telegram-inspired design, Android/iOS only, social + secure messaging features
 ```

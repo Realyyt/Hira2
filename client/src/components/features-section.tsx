@@ -1,59 +1,59 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Shield, Users, Video, Globe, FileText, Heart } from "lucide-react";
+import { Shield, Users, Video, Hash, MessageCircle, Zap } from "lucide-react";
 
 const features = [
   {
+    icon: MessageCircle,
+    title: "Public Feeds & Posts",
+    description: "Create threaded posts, reply to conversations, and discover trending content with hashtags and mentions.",
+    color: "text-blue-400",
+    bgColor: "bg-blue-500/10"
+  },
+  {
     icon: Shield,
-    title: "End-to-end encrypted",
-    description: "Your personal messages are protected by end-to-end encryption. Only you and the person you're talking to can read them.",
-    color: "text-[#9500FF]",
-    bgColor: "bg-[#9500FF]/10"
+    title: "End-to-end encryption",
+    description: "All private messages and group chats are secured with end-to-end encryption by default.",
+    color: "text-green-400",
+    bgColor: "bg-green-500/10"
   },
   {
     icon: Users,
-    title: "Group conversations",
-    description: "Stay connected with groups of up to 1024 people. Share photos, videos, documents, and voice messages.",
-    color: "text-[#128C7E]",
-    bgColor: "bg-[#128C7E]/10"
+    title: "Communities & Groups",
+    description: "Join communities, create groups with role-based access, and connect with like-minded people.",
+    color: "text-purple-400",
+    bgColor: "bg-purple-500/10"
   },
   {
     icon: Video,
-    title: "Voice and video calls",
-    description: "Talk to your friends and family with free voice and video calls over Wi-Fi or your cellular connection.",
-    color: "text-[#9500FF]",
-    bgColor: "bg-[#9500FF]/10"
+    title: "Live Streaming",
+    description: "Host live video sessions with real-time chat interaction. Stream publicly or privately to your audience.",
+    color: "text-red-400",
+    bgColor: "bg-red-500/10"
   },
   {
-    icon: Globe,
-    title: "Works everywhere",
-    description: "WhatsApp works on phones, tablets, and computers. Stay connected wherever you are.",
-    color: "text-[#128C7E]",
-    bgColor: "bg-[#128C7E]/10"
+    icon: Hash,
+    title: "Content Discovery",
+    description: "Explore trending topics, discover new users, and find communities through our intelligent recommendation system.",
+    color: "text-orange-400",
+    bgColor: "bg-orange-500/10"
   },
   {
-    icon: FileText,
-    title: "Share files",
-    description: "Send documents, photos, videos, and voice messages. Share moments that matter with the people you care about.",
-    color: "text-[#9500FF]",
-    bgColor: "bg-[#9500FF]/10"
-  },
-  {
-    icon: Heart,
-    title: "Built for you",
-    description: "Simple, reliable, and private. WhatsApp is designed to work the way you need it to.",
-    color: "text-[#128C7E]",
-    bgColor: "bg-[#128C7E]/10"
+    icon: Zap,
+    title: "Self-Destructing Messages",
+    description: "Send messages that automatically delete after a set time for enhanced privacy in secret chats.",
+    color: "text-yellow-400",
+    bgColor: "bg-yellow-500/10"
   }
 ];
 
 export default function FeaturesSection() {
   return (
-    <section id="features" className="py-20 bg-gray-50">
+    <section id="features" className="py-20 bg-[hsl(223,47%,11%)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-[#4A4A4A] mb-4">Why WhatsApp</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Connect with your friends and family, build your community, and grow your business.
+          <h2 className="text-4xl font-bold text-white mb-4">Why Choose Hira</h2>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+            The perfect blend of social media and secure messaging. Connect, share, and communicate with complete privacy.
           </p>
         </div>
         
@@ -61,13 +61,13 @@ export default function FeaturesSection() {
           {features.map((feature, index) => {
             const IconComponent = feature.icon;
             return (
-              <Card key={index} className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border-0">
+              <Card key={index} className="bg-[hsl(222,84%,5%)] p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-700/50 hover:border-blue-500/30">
                 <CardContent className="p-0">
-                  <div className={`w-16 h-16 ${feature.bgColor} rounded-2xl flex items-center justify-center mb-6`}>
+                  <div className={`w-16 h-16 ${feature.bgColor} rounded-2xl flex items-center justify-center mb-6 border border-gray-600/30`}>
                     <IconComponent className={`${feature.color} h-8 w-8`} />
                   </div>
-                  <h3 className="text-xl font-bold text-[#4A4A4A] mb-4">{feature.title}</h3>
-                  <p className="text-gray-600 leading-relaxed">{feature.description}</p>
+                  <h3 className="text-xl font-bold text-white mb-4">{feature.title}</h3>
+                  <p className="text-gray-300 leading-relaxed">{feature.description}</p>
                 </CardContent>
               </Card>
             );

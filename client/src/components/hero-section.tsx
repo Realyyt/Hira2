@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Download, Globe } from "lucide-react";
+import { Download, Users, MessageCircle, Video } from "lucide-react";
 
 export default function HeroSection() {
   const scrollToDownload = () => {
@@ -15,39 +15,62 @@ export default function HeroSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-              Simple. Secure.<br/>
-              <span className="text-white">Reliable messaging.</span>
+              Connect. Share.<br/>
+              <span className="gradient-text">Stay Secure.</span>
             </h1>
             <p className="text-xl text-gray-200 mb-8 leading-relaxed">
-              With WhatsApp, you'll get fast, simple, secure messaging and calling for free*, available on phones all over the world.
+              Hira combines social media with secure messaging. Share public posts, join communities, and chat privately with end-to-end encryption.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button 
                 onClick={scrollToDownload}
-                className="bg-white text-[#9500FF] hover:bg-gray-100 px-8 py-4 rounded-full font-semibold text-lg h-auto"
+                className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-2xl font-semibold text-lg h-auto"
               >
                 <Download className="mr-2 h-5 w-5" />
-                Download WhatsApp
+                Get Hira
               </Button>
               <Button 
                 variant="outline"
-                className="border-2 border-white text-white hover:bg-white hover:text-[#9500FF] px-8 py-4 rounded-full font-semibold text-lg h-auto bg-transparent"
+                className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-2xl font-semibold text-lg h-auto bg-transparent"
               >
-                <Globe className="mr-2 h-5 w-5" />
-                Try WhatsApp Web
+                <Users className="mr-2 h-5 w-5" />
+                Join Community
               </Button>
             </div>
-            <p className="text-sm text-gray-300 mt-6">
-              *Data charges may apply. Contact your provider for details.
-            </p>
+            
+            <div className="flex items-center justify-center lg:justify-start gap-8 mt-8 text-gray-300">
+              <div className="flex items-center gap-2">
+                <MessageCircle className="h-5 w-5 text-blue-400" />
+                <span className="text-sm">Secure Chat</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Users className="h-5 w-5 text-green-400" />
+                <span className="text-sm">Social Feed</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Video className="h-5 w-5 text-purple-400" />
+                <span className="text-sm">Live Streaming</span>
+              </div>
+            </div>
           </div>
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
-              <div className="w-80 h-96 bg-gradient-to-br from-white/20 to-white/5 rounded-3xl shadow-2xl backdrop-blur-sm border border-white/20 flex items-center justify-center">
-                <div className="text-center text-white/80">
-                  <i className="fab fa-whatsapp text-8xl mb-4"></i>
-                  <p className="text-lg font-medium">WhatsApp Interface</p>
+              <div className="w-80 h-96 bg-gradient-to-br from-blue-600/20 to-purple-600/20 rounded-3xl shadow-2xl backdrop-blur-sm border border-blue-400/30 flex items-center justify-center">
+                <div className="text-center text-white/90">
+                  <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                    <span className="text-white font-bold text-3xl">H</span>
+                  </div>
+                  <p className="text-lg font-medium">Hira Interface</p>
+                  <p className="text-sm text-gray-300 mt-2">Social • Secure • Simple</p>
                 </div>
+              </div>
+              
+              {/* Floating feature cards */}
+              <div className="absolute -top-4 -left-4 bg-green-500/90 text-white px-3 py-2 rounded-lg text-sm font-medium backdrop-blur-sm">
+                End-to-End Encrypted
+              </div>
+              <div className="absolute -bottom-4 -right-4 bg-purple-500/90 text-white px-3 py-2 rounded-lg text-sm font-medium backdrop-blur-sm">
+                Live Streaming
               </div>
             </div>
           </div>

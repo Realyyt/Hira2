@@ -3,96 +3,111 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export default function DownloadSection() {
   return (
-    <section id="download" className="py-20 bg-white">
+    <section id="download" className="py-20 bg-[hsl(222,84%,5%)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-[#4A4A4A] mb-4">Download WhatsApp</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Get WhatsApp on your phone, tablet, or computer. It's fast, simple, and free.
+          <h2 className="text-4xl font-bold text-white mb-4">Get Hira</h2>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+            Download Hira for your mobile device. Available on Android and iOS with all features included.
           </p>
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <h3 className="text-2xl font-bold text-[#4A4A4A] mb-8">Download for your phone</h3>
-            <div className="space-y-4 mb-8">
+          <div className="mx-auto max-w-md">
+            <h3 className="text-2xl font-bold text-white mb-8 text-center">Available for Mobile</h3>
+            <div className="space-y-6">
               <Button 
                 variant="outline"
-                className="w-full flex items-center justify-start bg-black text-white p-4 h-auto hover:bg-gray-800 border-black rounded-xl"
+                className="w-full flex items-center justify-start bg-gradient-to-r from-blue-600 to-blue-700 text-white p-6 h-auto hover:from-blue-700 hover:to-blue-800 border-0 rounded-2xl shadow-lg transition-all duration-300"
               >
-                <i className="fab fa-apple text-3xl mr-4"></i>
+                <i className="fab fa-apple text-4xl mr-6"></i>
                 <div className="text-left">
-                  <div className="text-sm opacity-75">Download on the</div>
-                  <div className="text-lg font-semibold">App Store</div>
+                  <div className="text-sm opacity-90">Download on the</div>
+                  <div className="text-xl font-bold">App Store</div>
+                  <div className="text-xs opacity-75">iOS 13.0 or later</div>
                 </div>
               </Button>
+              
               <Button 
                 variant="outline"
-                className="w-full flex items-center justify-start bg-black text-white p-4 h-auto hover:bg-gray-800 border-black rounded-xl"
+                className="w-full flex items-center justify-start bg-gradient-to-r from-green-600 to-green-700 text-white p-6 h-auto hover:from-green-700 hover:to-green-800 border-0 rounded-2xl shadow-lg transition-all duration-300"
               >
-                <i className="fab fa-google-play text-3xl mr-4"></i>
+                <i className="fab fa-google-play text-4xl mr-6"></i>
                 <div className="text-left">
-                  <div className="text-sm opacity-75">Get it on</div>
-                  <div className="text-lg font-semibold">Google Play</div>
+                  <div className="text-sm opacity-90">Get it on</div>
+                  <div className="text-xl font-bold">Google Play</div>
+                  <div className="text-xs opacity-75">Android 7.0 or later</div>
                 </div>
               </Button>
             </div>
             
-            <h3 className="text-2xl font-bold text-[#4A4A4A] mb-8">Download for your computer</h3>
-            <div className="space-y-4">
-              <Button 
-                variant="outline"
-                className="w-full flex items-center justify-start bg-gray-100 text-[#4A4A4A] p-4 h-auto hover:bg-gray-200 border-gray-200 rounded-xl"
-              >
-                <i className="fab fa-windows text-3xl mr-4 text-blue-500"></i>
-                <div className="text-left">
-                  <div className="text-lg font-semibold">Download for Windows</div>
-                  <div className="text-sm opacity-75">Windows 8.1 or later</div>
+            <div className="mt-12 text-center">
+              <p className="text-gray-400 text-sm mb-4">
+                Experience the full power of Hira on mobile
+              </p>
+              <div className="flex justify-center gap-6 text-gray-500">
+                <div className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                  <span className="text-xs">Social Feed</span>
                 </div>
-              </Button>
-              <Button 
-                variant="outline"
-                className="w-full flex items-center justify-start bg-gray-100 text-[#4A4A4A] p-4 h-auto hover:bg-gray-200 border-gray-200 rounded-xl"
-              >
-                <i className="fab fa-apple text-3xl mr-4"></i>
-                <div className="text-left">
-                  <div className="text-lg font-semibold">Download for Mac</div>
-                  <div className="text-sm opacity-75">macOS 10.10 or later</div>
+                <div className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                  <span className="text-xs">Secure Chat</span>
                 </div>
-              </Button>
-              <Button 
-                variant="outline"
-                className="w-full flex items-center justify-start bg-[#128C7E] text-white p-4 h-auto hover:bg-[#128C7E]/90 border-[#128C7E] rounded-xl"
-              >
-                <i className="fas fa-globe text-3xl mr-4"></i>
-                <div className="text-left">
-                  <div className="text-lg font-semibold">WhatsApp Web</div>
-                  <div className="text-sm opacity-75">Use WhatsApp in your browser</div>
+                <div className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
+                  <span className="text-xs">Live Streaming</span>
                 </div>
-              </Button>
+              </div>
             </div>
           </div>
           
           <div className="flex flex-col items-center">
-            <Card className="w-64 h-64 rounded-2xl shadow-lg mb-6 bg-gradient-to-br from-gray-100 to-gray-200">
-              <CardContent className="flex items-center justify-center h-full p-0">
-                <div className="text-center text-gray-600">
-                  <div className="grid grid-cols-8 gap-1 mb-4">
-                    {Array.from({ length: 64 }).map((_, i) => (
-                      <div 
-                        key={i} 
-                        className={`w-2 h-2 ${Math.random() > 0.5 ? 'bg-black' : 'bg-transparent'}`}
-                      />
-                    ))}
+            <div className="relative">
+              <div className="w-80 h-96 bg-gradient-to-br from-blue-600/20 to-purple-600/20 rounded-3xl shadow-2xl backdrop-blur-sm border border-blue-400/30 overflow-hidden">
+                <div className="p-6">
+                  {/* Mock phone interface */}
+                  <div className="bg-[hsl(223,47%,11%)] rounded-2xl p-4 h-full">
+                    <div className="flex items-center justify-between mb-4">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
+                          <span className="text-white font-bold text-sm">H</span>
+                        </div>
+                        <span className="text-white font-medium">Hira</span>
+                      </div>
+                      <div className="flex gap-2">
+                        <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                        <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                        <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
+                      </div>
+                    </div>
+                    
+                    {/* Mock content */}
+                    <div className="space-y-3">
+                      <div className="bg-blue-600/20 rounded-lg p-3">
+                        <div className="w-full h-2 bg-blue-400/30 rounded mb-2"></div>
+                        <div className="w-3/4 h-2 bg-blue-400/20 rounded"></div>
+                      </div>
+                      <div className="bg-green-600/20 rounded-lg p-3">
+                        <div className="w-full h-2 bg-green-400/30 rounded mb-2"></div>
+                        <div className="w-2/3 h-2 bg-green-400/20 rounded"></div>
+                      </div>
+                      <div className="bg-purple-600/20 rounded-lg p-3">
+                        <div className="w-5/6 h-2 bg-purple-400/30 rounded mb-2"></div>
+                        <div className="w-1/2 h-2 bg-purple-400/20 rounded"></div>
+                      </div>
+                    </div>
                   </div>
-                  <p className="text-sm font-medium">QR Code</p>
                 </div>
-              </CardContent>
-            </Card>
-            <h4 className="text-xl font-bold text-[#4A4A4A] mb-2">Scan to get WhatsApp Web</h4>
-            <p className="text-gray-600 text-center max-w-sm">
-              Point your phone at this screen to capture the QR code and connect instantly.
-            </p>
+              </div>
+              
+              <div className="absolute -top-4 -left-4 bg-blue-500/90 text-white px-3 py-2 rounded-lg text-sm font-medium backdrop-blur-sm">
+                Social + Secure
+              </div>
+              <div className="absolute -bottom-4 -right-4 bg-green-500/90 text-white px-3 py-2 rounded-lg text-sm font-medium backdrop-blur-sm">
+                Mobile First
+              </div>
+            </div>
           </div>
         </div>
       </div>
