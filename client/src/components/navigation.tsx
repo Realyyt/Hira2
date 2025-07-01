@@ -1,10 +1,22 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
+import { getTranslation } from '@/i18n/config';
+import LanguageSelector from '@/components/language-selector';
 
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [, forceUpdate] = useState({});
+
+  useEffect(() => {
+    const handleLanguageChange = () => {
+      forceUpdate({});
+    };
+    
+    window.addEventListener('language-change', handleLanguageChange);
+    return () => window.removeEventListener('language-change', handleLanguageChange);
+  }, []);
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -33,25 +45,25 @@ export default function Navigation() {
                 onClick={() => scrollToSection('features')}
                 className="text-gray-300 hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors"
               >
-                Features
+                {getTranslation('navigation.features')}
               </button>
               <button 
                 onClick={() => scrollToSection('download')}
                 className="text-gray-300 hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors"
               >
-                Download
+                {getTranslation('navigation.download')}
               </button>
               <button 
                 onClick={() => scrollToSection('social')}
                 className="text-gray-300 hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors"
               >
-                Social Features
+                {getTranslation('navigation.social')}
               </button>
               <button 
                 onClick={() => scrollToSection('security')}
                 className="text-gray-300 hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors"
               >
-                Security
+                {getTranslation('navigation.security')}
               </button>
               <a href="#" className="text-gray-300 hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors">
                 Help Center
@@ -60,13 +72,11 @@ export default function Navigation() {
           </div>
           
           <div className="flex items-center space-x-4">
-            <select className="bg-transparent text-gray-300 text-sm border-none focus:outline-none hidden sm:block">
-              <option>English</option>
-              <option>Español</option>
-              <option>Français</option>
-            </select>
+            <div className="hidden sm:block">
+              <LanguageSelector />
+            </div>
             <Button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium">
-              Get Hira
+              {getTranslation('hero.getApp')}
             </Button>
           </div>
           

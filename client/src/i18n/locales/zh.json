@@ -1,0 +1,137 @@
+{
+  "navigation": {
+    "features": "功能",
+    "download": "下载",
+    "social": "社交",
+    "security": "安全",
+    "business": "商务"
+  },
+  "hero": {
+    "title": "连接。分享。",
+    "titleHighlight": "保持安全。",
+    "subtitle": "Hira 将社交媒体与安全消息传递相结合。分享公开帖子，加入社区，通过端到端加密进行私人聊天。",
+    "getApp": "获取 Hira",
+    "joinCommunity": "加入社区",
+    "secureChat": "安全聊天",
+    "socialFeed": "社交动态",
+    "liveStreaming": "直播",
+    "interface": "Hira 界面",
+    "tagline": "社交 • 安全 • 简单",
+    "encryptedBadge": "端到端加密",
+    "streamingBadge": "直播"
+  },
+  "features": {
+    "title": "社交和安全通讯所需的一切",
+    "publicFeeds": {
+      "title": "公开动态",
+      "description": "与关注者分享帖子、照片和更新。点赞、评论和转发内容。"
+    },
+    "threadedPosts": {
+      "title": "主题帖子",
+      "description": "创建吸引人的主题对话，使用嵌套评论回复帖子。"
+    },
+    "encryptedChat": {
+      "title": "加密聊天",
+      "description": "通过端到端加密保护的私人一对一和群聊，确保最大安全性。"
+    },
+    "communities": {
+      "title": "社区",
+      "description": "加入基于兴趣的社区，与世界各地志同道合的人建立联系。"
+    },
+    "liveStreaming": {
+      "title": "直播",
+      "description": "举办实时视频会话，包含实时聊天互动和观众参与。"
+    },
+    "contentDiscovery": {
+      "title": "内容发现",
+      "description": "通过智能算法发现热门标签、热门帖子和推荐用户。"
+    },
+    "selfDestructing": {
+      "title": "自毁消息",
+      "description": "发送在设定时间后自动删除的消息，增强隐私保护。"
+    },
+    "voiceCalls": {
+      "title": "语音和视频通话",
+      "description": "与个人或群组进行加密的语音和视频通话，享受水晶般清晰的质量。"
+    },
+    "chatFolders": {
+      "title": "聊天文件夹",
+      "description": "使用自定义文件夹和标签整理对话，更好地管理聊天。"
+    }
+  },
+  "download": {
+    "title": "下载 Hira",
+    "subtitle": "专为移动设备提供",
+    "android": "下载 Android 版",
+    "ios": "下载 iOS 版",
+    "qrCode": "扫描二维码下载",
+    "mobileOnly": "仅移动应用",
+    "mobileDescription": "Hira 专为移动设备设计，在移动中提供最佳的社交和消息传递体验。"
+  },
+  "social": {
+    "title": "与世界各地的社区连接",
+    "subtitle": "发现、分享并与对您重要的内容互动",
+    "publicPosts": {
+      "title": "公开帖子和故事",
+      "description": "通过帖子和临时故事与关注者分享您的想法、照片和视频。"
+    },
+    "trendingHashtags": {
+      "title": "热门标签",
+      "description": "通过热门标签保持对热门话题的了解并发现新内容。"
+    },
+    "userProfiles": {
+      "title": "丰富的用户资料",
+      "description": "使用简介、头像、横幅和验证标识自定义您的个人资料。"
+    },
+    "algorithmicFeed": {
+      "title": "智能内容动态",
+      "description": "通过智能推荐发现符合您兴趣的新用户和帖子。"
+    }
+  },
+  "security": {
+    "title": "您的隐私是我们的优先考虑",
+    "subtitle": "Hira 在设计时考虑了您的隐私。所有个人对话和社交互动都通过默认加密得到保护。",
+    "endToEnd": {
+      "title": "端到端加密",
+      "description": "所有私人消息和通话都经过加密，确保只有您和您的联系人可以阅读。"
+    },
+    "twoStep": {
+      "title": "两步验证",
+      "description": "使用 OTP 或电子邮件验证的双因素身份验证保护您的账户。"
+    },
+    "anonymity": {
+      "title": "用户名隐私",
+      "description": "仅使用用户名使用 Hira - 无需电话号码即可获得最大匿名性。"
+    },
+    "learnMore": "了解更多关于 Hira 隐私和安全 →"
+  },
+  "statistics": {
+    "title": "在全球快速增长",
+    "subtitle": "加入数百万信任 Hira 进行社交和私人通讯的用户",
+    "activeUsers": "活跃用户",
+    "messagesDaily": "每日发送消息",
+    "countries": "支持的国家",
+    "uptime": "正常运行时间保证",
+    "joinCommunity": "今天就加入社区"
+  },
+  "footer": {
+    "tagline": "社交媒体遇见安全消息传递。连接、分享并私密通讯。",
+    "whatWeDo": "我们做什么",
+    "whoWeAre": "我们是谁",
+    "useHira": "使用 Hira",
+    "aboutUs": "关于我们",
+    "careers": "职业",
+    "brandCenter": "品牌中心",
+    "privacy": "隐私",
+    "android": "Android",
+    "iphone": "iPhone",
+    "communities": "社区",
+    "helpCenter": "帮助中心",
+    "socialFeatures": "社交功能",
+    "liveStreaming": "直播",
+    "copyright": "© 2025 Hira Technologies",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "communityGuidelines": "社区准则"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "navigation": {
+    "features": "기능",
+    "download": "다운로드",
+    "social": "소셜",
+    "security": "보안",
+    "business": "비즈니스"
+  },
+  "hero": {
+    "title": "연결하고. 공유하고.",
+    "titleHighlight": "안전하게 유지하세요.",
+    "subtitle": "Hira는 소셜 미디어와 보안 메시징을 결합합니다. 공개 게시물을 공유하고, 커뮤니티에 참여하며, 종단간 암호화로 개인적으로 채팅하세요.",
+    "getApp": "Hira 받기",
+    "joinCommunity": "커뮤니티 참여",
+    "secureChat": "보안 채팅",
+    "socialFeed": "소셜 피드",
+    "liveStreaming": "라이브 스트리밍",
+    "interface": "Hira 인터페이스",
+    "tagline": "소셜 • 보안 • 간단",
+    "encryptedBadge": "종단간 암호화",
+    "streamingBadge": "라이브 스트리밍"
+  },
+  "features": {
+    "title": "소셜 및 보안 커뮤니케이션에 필요한 모든 것",
+    "publicFeeds": {
+      "title": "공개 피드",
+      "description": "팔로워와 게시물, 사진, 업데이트를 공유하세요. 콘텐츠에 좋아요, 댓글, 리포스트하세요."
+    },
+    "threadedPosts": {
+      "title": "스레드 게시물",
+      "description": "매력적인 스레드 대화를 만들고 중첩된 댓글로 게시물에 답글을 달아보세요."
+    },
+    "encryptedChat": {
+      "title": "암호화된 채팅",
+      "description": "최대 보안을 위해 종단간 암호화로 보호되는 개인 1:1 및 그룹 채팅."
+    },
+    "communities": {
+      "title": "커뮤니티",
+      "description": "관심사 기반 커뮤니티에 참여하고 전 세계의 같은 생각을 가진 사람들과 연결하세요."
+    },
+    "liveStreaming": {
+      "title": "라이브 스트리밍",
+      "description": "실시간 채팅 상호작용과 청중 참여로 라이브 비디오 세션을 주최하세요."
+    },
+    "contentDiscovery": {
+      "title": "콘텐츠 발견",
+      "description": "스마트 알고리즘을 통해 트렌딩 해시태그, 인기 게시물, 추천 사용자를 발견하세요."
+    },
+    "selfDestructing": {
+      "title": "자동 삭제 메시지",
+      "description": "향상된 개인정보보호를 위해 설정된 시간 후 자동으로 삭제되는 메시지를 보내세요."
+    },
+    "voiceCalls": {
+      "title": "음성 및 영상 통화",
+      "description": "개인 또는 그룹에게 크리스탈 같이 선명한 품질로 암호화된 음성 및 영상 통화를 하세요."
+    },
+    "chatFolders": {
+      "title": "채팅 폴더",
+      "description": "더 나은 채팅 관리를 위해 사용자 정의 폴더와 탭으로 대화를 정리하세요."
+    }
+  },
+  "download": {
+    "title": "Hira 다운로드",
+    "subtitle": "모바일 기기에서만 이용 가능",
+    "android": "Android용 다운로드",
+    "ios": "iOS용 다운로드",
+    "qrCode": "QR 코드를 스캔하여 다운로드",
+    "mobileOnly": "모바일 앱만",
+    "mobileDescription": "Hira는 이동 중에 최고의 소셜 및 메시징 경험을 제공하기 위해 모바일 기기 전용으로 설계되었습니다."
+  },
+  "social": {
+    "title": "전 세계 커뮤니티와 연결",
+    "subtitle": "당신에게 중요한 콘텐츠를 발견, 공유, 참여하세요",
+    "publicPosts": {
+      "title": "공개 게시물 및 스토리",
+      "description": "게시물과 임시 스토리를 통해 팔로워와 생각, 사진, 비디오를 공유하세요."
+    },
+    "trendingHashtags": {
+      "title": "트렌딩 해시태그",
+      "description": "인기 해시태그를 통해 트렌딩 주제를 최신 상태로 유지하고 새로운 콘텐츠를 발견하세요."
+    },
+    "userProfiles": {
+      "title": "풍부한 사용자 프로필",
+      "description": "소개, 프로필 사진, 배너, 인증된 핸들로 프로필을 사용자 정의하세요."
+    },
+    "algorithmicFeed": {
+      "title": "스마트 콘텐츠 피드",
+      "description": "지능형 추천을 통해 당신의 관심사에 맞춘 새로운 사용자와 게시물을 발견하세요."
+    }
+  },
+  "security": {
+    "title": "귀하의 개인정보보호가 우리의 우선순위입니다",
+    "subtitle": "Hira는 개인정보보호를 염두에 두고 설계되었습니다. 모든 개인 대화와 소셜 상호작용은 기본 암호화로 보호됩니다.",
+    "endToEnd": {
+      "title": "종단간 암호화",
+      "description": "모든 개인 메시지와 통화는 암호화되어 귀하와 귀하의 연락처만이 읽을 수 있도록 보장합니다."
+    },
+    "twoStep": {
+      "title": "2단계 인증",
+      "description": "OTP 또는 이메일 인증을 사용한 2단계 인증으로 계정을 보호하세요."
+    },
+    "anonymity": {
+      "title": "사용자 이름 개인정보보호",
+      "description": "사용자 이름만으로 Hira를 사용하세요 - 최대 익명성을 위해 전화번호가 필요하지 않습니다."
+    },
+    "learnMore": "Hira 개인정보보호 및 보안에 대해 자세히 알아보기 →"
+  },
+  "statistics": {
+    "title": "전 세계적으로 빠르게 성장",
+    "subtitle": "소셜 및 개인 커뮤니케이션에서 Hira를 신뢰하는 수백만 사용자와 함께하세요",
+    "activeUsers": "활성 사용자",
+    "messagesDaily": "일일 전송 메시지",
+    "countries": "지원 국가",
+    "uptime": "가동 시간 보장",
+    "joinCommunity": "오늘 커뮤니티에 참여하세요"
+  },
+  "footer": {
+    "tagline": "소셜 미디어가 보안 메시징과 만납니다. 연결하고, 공유하고, 개인적으로 소통하세요.",
+    "whatWeDo": "우리가 하는 일",
+    "whoWeAre": "우리는 누구인가",
+    "useHira": "Hira 사용",
+    "aboutUs": "회사 소개",
+    "careers": "채용",
+    "brandCenter": "브랜드 센터",
+    "privacy": "개인정보보호",
+    "android": "Android",
+    "iphone": "iPhone",
+    "communities": "커뮤니티",
+    "helpCenter": "도움말 센터",
+    "socialFeatures": "소셜 기능",
+    "liveStreaming": "라이브 스트리밍",
+    "copyright": "© 2025 Hira Technologies",
+    "privacyPolicy": "개인정보보호정책",
+    "termsOfService": "서비스 약관",
+    "communityGuidelines": "커뮤니티 가이드라인"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "navigation": {
+    "features": "機能",
+    "download": "ダウンロード",
+    "social": "ソーシャル",
+    "security": "セキュリティ",
+    "business": "ビジネス"
+  },
+  "hero": {
+    "title": "つながる。シェアする。",
+    "titleHighlight": "安全を保つ。",
+    "subtitle": "Hiraはソーシャルメディアと安全なメッセージングを組み合わせます。公開投稿を共有し、コミュニティに参加し、エンドツーエンド暗号化でプライベートチャットを行います。",
+    "getApp": "Hiraを入手",
+    "joinCommunity": "コミュニティに参加",
+    "secureChat": "安全なチャット",
+    "socialFeed": "ソーシャルフィード",
+    "liveStreaming": "ライブ配信",
+    "interface": "Hiraインターフェース",
+    "tagline": "ソーシャル • 安全 • シンプル",
+    "encryptedBadge": "エンドツーエンド暗号化",
+    "streamingBadge": "ライブ配信"
+  },
+  "features": {
+    "title": "ソーシャルで安全なコミュニケーションに必要なすべて",
+    "publicFeeds": {
+      "title": "パブリックフィード",
+      "description": "フォロワーと投稿、写真、更新を共有します。コンテンツにいいね、コメント、リポストします。"
+    },
+    "threadedPosts": {
+      "title": "スレッド投稿",
+      "description": "魅力的なスレッド会話を作成し、ネストしたコメントで投稿に返信します。"
+    },
+    "encryptedChat": {
+      "title": "暗号化チャット",
+      "description": "最大限のセキュリティのためにエンドツーエンド暗号化で保護されたプライベート1対1およびグループチャット。"
+    },
+    "communities": {
+      "title": "コミュニティ",
+      "description": "興味ベースのコミュニティに参加し、世界中の同じ考えを持つ人々とつながります。"
+    },
+    "liveStreaming": {
+      "title": "ライブ配信",
+      "description": "リアルタイムチャットインタラクションとオーディエンスエンゲージメントでライブビデオセッションを開催します。"
+    },
+    "contentDiscovery": {
+      "title": "コンテンツ発見",
+      "description": "スマートアルゴリズムでトレンドハッシュタグ、人気投稿、おすすめユーザーを発見します。"
+    },
+    "selfDestructing": {
+      "title": "自動削除メッセージ",
+      "description": "プライバシー強化のために設定時間後に自動削除されるメッセージを送信します。"
+    },
+    "voiceCalls": {
+      "title": "音声・ビデオ通話",
+      "description": "個人またはグループにクリスタルクリアな品質で暗号化された音声・ビデオ通話を行います。"
+    },
+    "chatFolders": {
+      "title": "チャットフォルダ",
+      "description": "カスタムフォルダとタブで会話を整理し、より良いチャット管理を行います。"
+    }
+  },
+  "download": {
+    "title": "Hiraをダウンロード",
+    "subtitle": "モバイルデバイス専用",
+    "android": "Android版をダウンロード",
+    "ios": "iOS版をダウンロード",
+    "qrCode": "QRコードをスキャンしてダウンロード",
+    "mobileOnly": "モバイルアプリのみ",
+    "mobileDescription": "Hiraは外出先で最高のソーシャル・メッセージング体験を提供するためにモバイルデバイス専用に設計されています。"
+  },
+  "social": {
+    "title": "世界中のコミュニティとつながる",
+    "subtitle": "あなたにとって重要なコンテンツを発見、共有、エンゲージメント",
+    "publicPosts": {
+      "title": "パブリック投稿・ストーリー",
+      "description": "投稿と一時的なストーリーを通じてフォロワーとあなたの思考、写真、ビデオを共有します。"
+    },
+    "trendingHashtags": {
+      "title": "トレンドハッシュタグ",
+      "description": "人気のハッシュタグでトレンドトピックを追跡し、新しいコンテンツを発見します。"
+    },
+    "userProfiles": {
+      "title": "リッチユーザープロフィール",
+      "description": "バイオ、プロフィール写真、バナー、認証ハンドルでプロフィールをカスタマイズします。"
+    },
+    "algorithmicFeed": {
+      "title": "スマートコンテンツフィード",
+      "description": "インテリジェントな推奨事項であなたの興味に合った新しいユーザーと投稿を発見します。"
+    }
+  },
+  "security": {
+    "title": "あなたのプライバシーが私たちの優先事項",
+    "subtitle": "Hiraはあなたのプライバシーを念頭に置いて設計されています。すべての個人的な会話とソーシャルインタラクションはデフォルト暗号化で保護されています。",
+    "endToEnd": {
+      "title": "エンドツーエンド暗号化",
+      "description": "すべてのプライベートメッセージと通話は暗号化されており、あなたとあなたの連絡先のみが読むことができることを保証します。"
+    },
+    "twoStep": {
+      "title": "二段階認証",
+      "description": "OTPまたはメール認証を使用した二要素認証でアカウントを保護します。"
+    },
+    "anonymity": {
+      "title": "ユーザー名プライバシー",
+      "description": "ユーザー名のみでHiraを使用 - 最大限の匿名性のために電話番号は不要です。"
+    },
+    "learnMore": "Hiraのプライバシーとセキュリティについて詳しく学ぶ →"
+  },
+  "statistics": {
+    "title": "世界中で急速に成長",
+    "subtitle": "ソーシャル・プライベートコミュニケーションでHiraを信頼する数百万のユーザーに参加",
+    "activeUsers": "アクティブユーザー",
+    "messagesDaily": "1日に送信されるメッセージ",
+    "countries": "サポートされている国",
+    "uptime": "稼働時間保証",
+    "joinCommunity": "今日コミュニティに参加"
+  },
+  "footer": {
+    "tagline": "ソーシャルメディアが安全なメッセージングと出会う。つながり、共有し、プライベートにコミュニケーション。",
+    "whatWeDo": "私たちがすること",
+    "whoWeAre": "私たちは誰か",
+    "useHira": "Hiraを使用",
+    "aboutUs": "私たちについて",
+    "careers": "キャリア",
+    "brandCenter": "ブランドセンター",
+    "privacy": "プライバシー",
+    "android": "Android",
+    "iphone": "iPhone",
+    "communities": "コミュニティ",
+    "helpCenter": "ヘルプセンター",
+    "socialFeatures": "ソーシャル機能",
+    "liveStreaming": "ライブ配信",
+    "copyright": "© 2025 Hira Technologies",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "communityGuidelines": "コミュニティガイドライン"
+  }
+}

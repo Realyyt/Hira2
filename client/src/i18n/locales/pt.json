@@ -1,0 +1,137 @@
+{
+  "navigation": {
+    "features": "Recursos",
+    "download": "Baixar",
+    "social": "Social",
+    "security": "Segurança",
+    "business": "Negócios"
+  },
+  "hero": {
+    "title": "Conecte. Compartilhe.",
+    "titleHighlight": "Mantenha-se Seguro.",
+    "subtitle": "Hira combina mídia social com mensagens seguras. Compartilhe posts públicos, junte-se a comunidades e converse privadamente com criptografia ponta a ponta.",
+    "getApp": "Obter Hira",
+    "joinCommunity": "Juntar-se à Comunidade",
+    "secureChat": "Chat Seguro",
+    "socialFeed": "Feed Social",
+    "liveStreaming": "Transmissão ao Vivo",
+    "interface": "Interface Hira",
+    "tagline": "Social • Seguro • Simples",
+    "encryptedBadge": "Criptografia Ponta a Ponta",
+    "streamingBadge": "Transmissão ao Vivo"
+  },
+  "features": {
+    "title": "Tudo que você precisa para comunicação social e segura",
+    "publicFeeds": {
+      "title": "Feeds Públicos",
+      "description": "Compartilhe posts, fotos e atualizações com seus seguidores. Curta, comente e reposte conteúdo."
+    },
+    "threadedPosts": {
+      "title": "Posts em Thread",
+      "description": "Crie conversas envolventes em thread e responda a posts com comentários aninhados."
+    },
+    "encryptedChat": {
+      "title": "Chat Criptografado",
+      "description": "Chats privados 1:1 e em grupo protegidos por criptografia ponta a ponta para máxima segurança."
+    },
+    "communities": {
+      "title": "Comunidades",
+      "description": "Junte-se a comunidades baseadas em interesses e conecte-se com pessoas de ideias similares ao redor do mundo."
+    },
+    "liveStreaming": {
+      "title": "Transmissão ao Vivo",
+      "description": "Hospede sessões de vídeo ao vivo com interação de chat em tempo real e engajamento da audiência."
+    },
+    "contentDiscovery": {
+      "title": "Descoberta de Conteúdo",
+      "description": "Descubra hashtags em alta, posts populares e usuários recomendados através de algoritmos inteligentes."
+    },
+    "selfDestructing": {
+      "title": "Mensagens Autodestrutivas",
+      "description": "Envie mensagens que se deletam automaticamente após um tempo definido para privacidade aprimorada."
+    },
+    "voiceCalls": {
+      "title": "Chamadas de Voz e Vídeo",
+      "description": "Faça chamadas de voz e vídeo criptografadas com qualidade cristalina para indivíduos ou grupos."
+    },
+    "chatFolders": {
+      "title": "Pastas de Chat",
+      "description": "Organize suas conversas com pastas customizadas e abas para melhor gerenciamento de chat."
+    }
+  },
+  "download": {
+    "title": "Baixar Hira",
+    "subtitle": "Disponível exclusivamente em dispositivos móveis",
+    "android": "Baixar para Android",
+    "ios": "Baixar para iOS",
+    "qrCode": "Escaneie o código QR para baixar",
+    "mobileOnly": "Apenas App Móvel",
+    "mobileDescription": "Hira é projetado especificamente para dispositivos móveis para fornecer a melhor experiência social e de mensagens em movimento."
+  },
+  "social": {
+    "title": "Conecte-se com comunidades ao redor do mundo",
+    "subtitle": "Descubra, compartilhe e interaja com conteúdo que importa para você",
+    "publicPosts": {
+      "title": "Posts Públicos e Stories",
+      "description": "Compartilhe seus pensamentos, fotos e vídeos com seus seguidores através de posts e stories temporários."
+    },
+    "trendingHashtags": {
+      "title": "Hashtags em Alta",
+      "description": "Mantenha-se atualizado com tópicos em alta e descubra novo conteúdo através de hashtags populares."
+    },
+    "userProfiles": {
+      "title": "Perfis de Usuário Ricos",
+      "description": "Personalize seu perfil com bio, foto de perfil, banner e verificações."
+    },
+    "algorithmicFeed": {
+      "title": "Feed de Conteúdo Inteligente",
+      "description": "Descubra novos usuários e posts adaptados aos seus interesses através de recomendações inteligentes."
+    }
+  },
+  "security": {
+    "title": "Sua privacidade é nossa prioridade",
+    "subtitle": "Hira é projetado com sua privacidade em mente. Todas as conversas pessoais e interações sociais são protegidas por criptografia padrão.",
+    "endToEnd": {
+      "title": "Criptografia Ponta a Ponta",
+      "description": "Todas as mensagens privadas e chamadas são criptografadas, garantindo que apenas você e seus contatos possam lê-las."
+    },
+    "twoStep": {
+      "title": "Verificação em Duas Etapas",
+      "description": "Proteja sua conta com autenticação de dois fatores usando OTP ou verificação por email."
+    },
+    "anonymity": {
+      "title": "Privacidade do Nome de Usuário",
+      "description": "Use Hira apenas com um nome de usuário - nenhum número de telefone necessário para máximo anonimato."
+    },
+    "learnMore": "Saiba mais sobre privacidade e segurança do Hira →"
+  },
+  "statistics": {
+    "title": "Crescendo rapidamente ao redor do mundo",
+    "subtitle": "Junte-se a milhões de usuários que confiam no Hira para suas comunicações sociais e privadas",
+    "activeUsers": "Usuários Ativos",
+    "messagesDaily": "Mensagens enviadas diariamente",
+    "countries": "Países suportados",
+    "uptime": "Garantia de tempo de atividade",
+    "joinCommunity": "Junte-se à comunidade hoje"
+  },
+  "footer": {
+    "tagline": "Mídia social encontra mensagens seguras. Conecte, compartilhe e comunique-se privadamente.",
+    "whatWeDo": "O que fazemos",
+    "whoWeAre": "Quem somos",
+    "useHira": "Usar Hira",
+    "aboutUs": "Sobre nós",
+    "careers": "Carreiras",
+    "brandCenter": "Centro da Marca",
+    "privacy": "Privacidade",
+    "android": "Android",
+    "iphone": "iPhone",
+    "communities": "Comunidades",
+    "helpCenter": "Central de Ajuda",
+    "socialFeatures": "Recursos Sociais",
+    "liveStreaming": "Transmissão ao Vivo",
+    "copyright": "© 2025 Hira Technologies",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço",
+    "communityGuidelines": "Diretrizes da Comunidade"
+  }
+}

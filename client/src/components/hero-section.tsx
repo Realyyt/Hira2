@@ -1,7 +1,20 @@
 import { Button } from "@/components/ui/button";
 import { Download, Users, MessageCircle, Video } from "lucide-react";
+import { useState, useEffect } from 'react';
+import { getTranslation } from '@/i18n/config';
 
 export default function HeroSection() {
+  const [, forceUpdate] = useState({});
+
+  useEffect(() => {
+    const handleLanguageChange = () => {
+      forceUpdate({});
+    };
+    
+    window.addEventListener('language-change', handleLanguageChange);
+    return () => window.removeEventListener('language-change', handleLanguageChange);
+  }, []);
+  
   const scrollToDownload = () => {
     const element = document.getElementById('download');
     if (element) {
@@ -16,11 +29,11 @@ export default function HeroSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-              Connect. Share.<br/>
-              <span className="gradient-text">Stay Secure.</span>
+              {getTranslation('hero.title')}<br/>
+              <span className="gradient-text">{getTranslation('hero.titleHighlight')}</span>
             </h1>
             <p className="text-xl text-gray-200 mb-8 leading-relaxed">
-              Hira combines social media with secure messaging. Share public posts, join communities, and chat privately with end-to-end encryption.
+              {getTranslation('hero.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button 
@@ -28,29 +41,29 @@ export default function HeroSection() {
                 className="bg-white text-[#AB9FF2] hover:bg-gray-100 px-8 py-4 rounded-2xl font-semibold text-lg h-auto"
               >
                 <Download className="mr-2 h-5 w-5" />
-                Get Hira
+                {getTranslation('hero.getApp')}
               </Button>
               <Button 
                 variant="outline"
                 className="border-2 border-white text-white hover:bg-white hover:text-[#AB9FF2] px-8 py-4 rounded-2xl font-semibold text-lg h-auto bg-transparent"
               >
                 <Users className="mr-2 h-5 w-5" />
-                Join Community
+                {getTranslation('hero.joinCommunity')}
               </Button>
             </div>
             
             <div className="flex items-center justify-center lg:justify-start gap-8 mt-8 text-gray-300">
               <div className="flex items-center gap-2">
                 <MessageCircle className="h-5 w-5 text-blue-400" />
-                <span className="text-sm">Secure Chat</span>
+                <span className="text-sm">{getTranslation('hero.secureChat')}</span>
               </div>
               <div className="flex items-center gap-2">
                 <Users className="h-5 w-5 text-green-400" />
-                <span className="text-sm">Social Feed</span>
+                <span className="text-sm">{getTranslation('hero.socialFeed')}</span>
               </div>
               <div className="flex items-center gap-2">
                 <Video className="h-5 w-5 text-purple-400" />
-                <span className="text-sm">Live Streaming</span>
+                <span className="text-sm">{getTranslation('hero.liveStreaming')}</span>
               </div>
             </div>
           </div>
