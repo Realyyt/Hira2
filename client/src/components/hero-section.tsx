@@ -10,8 +10,9 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="hero-gradient min-h-screen flex items-center pt-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <section className="hero-gradient min-h-screen flex items-center pt-16 relative">
+      <div className="absolute inset-0 bg-black/30"></div>
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
@@ -55,7 +56,7 @@ export default function HeroSection() {
           </div>
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
-              <div className="w-80 h-96 bg-gradient-to-br from-[#AB9FF2]/20 to-[#6B5B95]/30 rounded-3xl shadow-2xl backdrop-blur-sm border border-purple-400/30 flex items-center justify-center">
+              <div className="w-80 h-96 bg-gradient-to-br from-[#AB9FF2]/15 to-black/40 rounded-3xl shadow-2xl backdrop-blur-sm border border-purple-400/20 flex items-center justify-center">
                 <div className="text-center text-white/90">
                   <div className="w-20 h-20 bg-gradient-to-br from-[#AB9FF2] to-[#8B7BD8] rounded-2xl flex items-center justify-center mx-auto mb-4">
                     <span className="text-white font-bold text-3xl">H</span>

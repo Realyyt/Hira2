@@ -73,7 +73,7 @@
 
 @layer utilities {
   .hero-gradient {
-    background: linear-gradient(135deg, #AB9FF2 0%, #8B7BD8 50%, #6B5B95 100%);
+    background: linear-gradient(135deg, #AB9FF2 0%, #7A6BC7 25%, #4A3D7A 60%, hsl(222, 84%, 5%) 100%);
   }
   
   .gradient-text {
