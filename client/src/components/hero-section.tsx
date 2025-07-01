@@ -24,14 +24,14 @@ export default function HeroSection() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button 
                 onClick={scrollToDownload}
-                className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-2xl font-semibold text-lg h-auto"
+                className="bg-white text-[#AB9FF2] hover:bg-gray-100 px-8 py-4 rounded-2xl font-semibold text-lg h-auto"
               >
                 <Download className="mr-2 h-5 w-5" />
                 Get Hira
               </Button>
               <Button 
                 variant="outline"
-                className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-2xl font-semibold text-lg h-auto bg-transparent"
+                className="border-2 border-white text-white hover:bg-white hover:text-[#AB9FF2] px-8 py-4 rounded-2xl font-semibold text-lg h-auto bg-transparent"
               >
                 <Users className="mr-2 h-5 w-5" />
                 Join Community
@@ -55,9 +55,9 @@ export default function HeroSection() {
           </div>
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
-              <div className="w-80 h-96 bg-gradient-to-br from-blue-600/20 to-purple-600/20 rounded-3xl shadow-2xl backdrop-blur-sm border border-blue-400/30 flex items-center justify-center">
+              <div className="w-80 h-96 bg-gradient-to-br from-[#AB9FF2]/20 to-[#6B5B95]/30 rounded-3xl shadow-2xl backdrop-blur-sm border border-purple-400/30 flex items-center justify-center">
                 <div className="text-center text-white/90">
-                  <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <div className="w-20 h-20 bg-gradient-to-br from-[#AB9FF2] to-[#8B7BD8] rounded-2xl flex items-center justify-center mx-auto mb-4">
                     <span className="text-white font-bold text-3xl">H</span>
                   </div>
                   <p className="text-lg font-medium">Hira Interface</p>
