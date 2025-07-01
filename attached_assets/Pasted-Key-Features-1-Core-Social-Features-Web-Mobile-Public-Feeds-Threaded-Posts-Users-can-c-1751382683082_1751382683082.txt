@@ -1,0 +1,89 @@
+Key Features
+1. Core Social Features (Web & Mobile)
+●
+●
+●
+Public Feeds & Threaded Posts:
+Users can create, reply to, like, repost, and share threaded posts. Features include
+trending hashtags, mentions, user tagging, and advanced search for posts, users,
+and hashtags.
+User Profiles:
+Customizable bios, profile pictures, banners, verified handles, follow/follow-back
+system, and public post history with engagement stats.
+Content Discovery:
+Algorithmic recommendations for users and posts, plus an Explore tab for trending
+content and communities.
+2. Private & Group Messaging (Web & Mobile)
+●
+1:1 & Group Chats:
+End-to-end encrypted messaging for individuals and groups. Role-based access in
+groups (admins, mods, members), threaded replies within group chats, pin
+messages, mute/archive/block options.
+3. Communication Tools (Web & Mobile)
+●
+●
+Voice/Video Calls:
+Encrypted 1:1 and group calls, plus voice messages with playback controls.
+Live Streaming:
+Host live video sessions (public or private) with real-time chat interaction during
+streams.
+4. File & Media Sharing (Web & Mobile)
+●
+●
+File Sharing:
+Fast, secure sharing of images, videos, and documents (up to 2GB+), with
+cloud-based syncing across devices.
+Self-destructing Media:
+Set expiry for sensitive messages/files in secret chats.
+5. Security & Privacy (Web & Mobile)
+●
+●
+●
+●
+●
+End-to-End Encryption:
+Default for all private/group chats and calls.
+Two-Step Verification:
+Secure account login with OTP/email.
+Screenshot Prevention:
+Option to block screenshots in secret chats.
+Anonymity:
+Username-based interaction (no phone number required).
+Chat Folders:
+Organize chats with custom folders/tabs.
+6. Engagement & Analytics (Web & Mobile)
+●
+●
+●
+Notification Center:
+Real-time alerts for mentions, DMs, and group activity.
+Analytics Dashboard:
+Insights on post reach, engagement rates, and follower growth.
+Reporting & Moderation:
+Content flagging, spam detection, and user blocking.
+7 . User Experience (Web & Mobile)
+●
+●
+Modern, Intuitive UI:
+Clean, responsive design for fast navigation. Includes light/dark mode and
+accessibility options.
+Cross-Platform Sync:
+Seamless experience across web, Android, and iOS.
+Privacy & Security
+●
+●
+●
+●
+End-to-End Encryption: Default for all private and group chats.
+Self-Destructing Messages: Messages that automatically delete after a set time in
+secret chats.
+Screenshot Prevention: Option to prevent screenshots in secret chats.
+Two-Step Verification: Enhanced security for user accounts.
+●
+●
+●
+Cloud-Based Syncing: Access messages and files across multiple devices without
+losing data.
+Anonymity/Usernames: Users can interact using a username instead of their phone
+number.
+Chat Folders: Organize chats into custom categories for better management.
