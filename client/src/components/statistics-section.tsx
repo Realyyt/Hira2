@@ -1,10 +1,10 @@
 const statistics = [
   {
-    number: "10M+",
+    number: "100k+",
     label: "Active Users"
   },
   {
-    number: "500M+",
+    number: "1M+",
     label: "Messages sent daily"
   },
   {

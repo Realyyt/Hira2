@@ -32,8 +32,8 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center mr-3">
-                <span className="text-white font-bold text-lg">H</span>
+              <div className="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center mr-3 overflow-hidden">
+                <img src="/noshadow.png" alt="Logo" className="object-contain w-full h-full" />
               </div>
               <span className="ml-2 text-xl font-bold text-white">Hira</span>
             </div>

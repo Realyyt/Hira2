@@ -69,10 +69,10 @@ export default function HeroSection() {
           </div>
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
-              <div className="w-80 h-96 bg-gradient-to-br from-[#AB9FF2]/15 to-black/40 rounded-3xl shadow-2xl backdrop-blur-sm border border-purple-400/20 flex items-center justify-center">
+              <div className="w-80 h-[32rem] rounded-3xl shadow-2xl backdrop-blur-sm border border-purple-400/20 flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: "url('/1.png')" }}>
                 <div className="text-center text-white/90">
-                  <div className="w-20 h-20 bg-gradient-to-br from-[#AB9FF2] to-[#8B7BD8] rounded-2xl flex items-center justify-center mx-auto mb-4">
-                    <span className="text-white font-bold text-3xl">H</span>
+                  <div className="w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-4 overflow-hidden bg-white/10">
+                    <img src="/noshadow.png" alt="Logo" className="object-contain w-full h-full" />
                   </div>
                   <p className="text-lg font-medium">Hira Interface</p>
                   <p className="text-sm text-gray-300 mt-2">Social • Secure • Simple</p>

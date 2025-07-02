@@ -64,40 +64,11 @@ export default function DownloadSection() {
           
           <div className="flex flex-col items-center">
             <div className="relative">
-              <div className="w-80 h-96 bg-gradient-to-br from-blue-600/20 to-purple-600/20 rounded-3xl shadow-2xl backdrop-blur-sm border border-blue-400/30 overflow-hidden">
+              <div className="w-80 h-[40rem] bg-gradient-to-br from-blue-600/20 to-purple-600/20 rounded-3xl shadow-2xl backdrop-blur-sm border border-blue-400/30 overflow-hidden">
                 <div className="p-6">
                   {/* Mock phone interface */}
-                  <div className="bg-[hsl(223,47%,11%)] rounded-2xl p-4 h-full">
-                    <div className="flex items-center justify-between mb-4">
-                      <div className="flex items-center gap-3">
-                        <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
-                          <span className="text-white font-bold text-sm">H</span>
-                        </div>
-                        <span className="text-white font-medium">Hira</span>
-                      </div>
-                      <div className="flex gap-2">
-                        <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                        <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                        <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                      </div>
-                    </div>
-                    
-                    {/* Mock content */}
-                    <div className="space-y-3">
-                      <div className="bg-blue-600/20 rounded-lg p-3">
-                        <div className="w-full h-2 bg-blue-400/30 rounded mb-2"></div>
-                        <div className="w-3/4 h-2 bg-blue-400/20 rounded"></div>
-                      </div>
-                      <div className="bg-green-600/20 rounded-lg p-3">
-                        <div className="w-full h-2 bg-green-400/30 rounded mb-2"></div>
-                        <div className="w-2/3 h-2 bg-green-400/20 rounded"></div>
-                      </div>
-                      <div className="bg-purple-600/20 rounded-lg p-3">
-                        <div className="w-5/6 h-2 bg-purple-400/30 rounded mb-2"></div>
-                        <div className="w-1/2 h-2 bg-purple-400/20 rounded"></div>
-                      </div>
-                    </div>
-                  </div>
+                  <img src="/2.jpg" alt="App Interface" className="absolute inset-0 w-full h-full object-cover z-0" />
+                   
                 </div>
               </div>
               

@@ -83,70 +83,9 @@ export default function SocialSection() {
           </div>
           
           <div className="relative">
-            <div className="w-full h-96 bg-gradient-to-br from-blue-600/10 to-purple-600/10 rounded-2xl shadow-lg backdrop-blur-sm border border-blue-400/20 p-6">
-              <div className="h-full bg-[hsl(222,84%,5%)] rounded-xl p-4 overflow-hidden">
-                {/* Mock social feed */}
-                <div className="space-y-4">
-                  <div className="flex items-center gap-3 mb-4">
-                    <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
-                      <span className="text-white font-bold text-sm">H</span>
-                    </div>
-                    <span className="text-white font-medium">Social Feed</span>
-                  </div>
-                  
-                  {/* Mock posts */}
-                  <div className="bg-gray-800/50 rounded-lg p-3 border border-gray-700/30">
-                    <div className="flex items-center gap-2 mb-2">
-                      <div className="w-6 h-6 bg-blue-500 rounded-full"></div>
-                      <span className="text-gray-300 text-sm font-medium">@user123</span>
-                      <span className="text-gray-500 text-xs">2h</span>
-                    </div>
-                    <div className="space-y-2">
-                      <div className="w-full h-2 bg-gray-600/50 rounded"></div>
-                      <div className="w-3/4 h-2 bg-gray-600/30 rounded"></div>
-                    </div>
-                    <div className="flex gap-4 mt-3 text-gray-400 text-xs">
-                      <span>❤️ 24</span>
-                      <span>💬 8</span>
-                      <span>🔄 3</span>
-                    </div>
-                  </div>
-                  
-                  <div className="bg-gray-800/50 rounded-lg p-3 border border-gray-700/30">
-                    <div className="flex items-center gap-2 mb-2">
-                      <div className="w-6 h-6 bg-green-500 rounded-full"></div>
-                      <span className="text-gray-300 text-sm font-medium">@community</span>
-                      <span className="text-gray-500 text-xs">5h</span>
-                    </div>
-                    <div className="space-y-2">
-                      <div className="w-5/6 h-2 bg-gray-600/50 rounded"></div>
-                      <div className="w-2/3 h-2 bg-gray-600/30 rounded"></div>
-                    </div>
-                    <div className="flex gap-4 mt-3 text-gray-400 text-xs">
-                      <span>❤️ 156</span>
-                      <span>💬 42</span>
-                      <span>🔄 18</span>
-                    </div>
-                  </div>
-                  
-                  <div className="bg-gray-800/50 rounded-lg p-3 border border-gray-700/30">
-                    <div className="flex items-center gap-2 mb-2">
-                      <div className="w-6 h-6 bg-purple-500 rounded-full"></div>
-                      <span className="text-gray-300 text-sm font-medium">@creator</span>
-                      <span className="text-gray-500 text-xs">1d</span>
-                    </div>
-                    <div className="space-y-2">
-                      <div className="w-full h-2 bg-gray-600/50 rounded"></div>
-                      <div className="w-1/2 h-2 bg-gray-600/30 rounded"></div>
-                    </div>
-                    <div className="flex gap-4 mt-3 text-gray-400 text-xs">
-                      <span>❤️ 89</span>
-                      <span>💬 25</span>
-                      <span>🔄 12</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <img src="/B2.png" alt="Social Background" className="absolute inset-0 w-full h-full object-cover z-0 opacity-100 pointer-events-none" />
+            <div className="w-full h-[32rem] p-8 z-10 relative">
+              {/* Card content intentionally left empty as per request; inner black card removed */}
             </div>
             
             <div className="absolute -top-4 -left-4 bg-blue-500/90 text-white px-3 py-2 rounded-lg text-sm font-medium backdrop-blur-sm">

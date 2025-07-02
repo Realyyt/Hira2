@@ -1,49 +1,36 @@
 // Simple i18n implementation without external dependencies for now
 // This avoids React hook conflicts
 
-interface Translations {
-  [key: string]: any;
-}
+import en from './locales/en.json';
+import es from './locales/es.json';
+import fr from './locales/fr.json';
+import de from './locales/de.json';
+import ar from './locales/ar.json';
+import pt from './locales/pt.json';
+import ru from './locales/ru.json';
+import zh from './locales/zh.json';
+import ja from './locales/ja.json';
+import ko from './locales/ko.json';
+import hi from './locales/hi.json';
+import tr from './locales/tr.json';
+import bn from './locales/bn.json';
+// Add more imports as you add more languages
 
-const translations: Record<string, Translations> = {
-  en: {
-    navigation: {
-      features: "Features",
-      download: "Download",
-      social: "Social",
-      security: "Security",
-      business: "Business"
-    },
-    hero: {
-      title: "Connect. Share.",
-      titleHighlight: "Stay Secure.",
-      subtitle: "Hira combines social media with secure messaging. Share public posts, join communities, and chat privately with end-to-end encryption.",
-      getApp: "Get Hira",
-      joinCommunity: "Join Community",
-      secureChat: "Secure Chat",
-      socialFeed: "Social Feed",
-      liveStreaming: "Live Streaming"
-    }
-  },
-  es: {
-    navigation: {
-      features: "Características",
-      download: "Descargar", 
-      social: "Social",
-      security: "Seguridad",
-      business: "Negocios"
-    },
-    hero: {
-      title: "Conecta. Comparte.",
-      titleHighlight: "Mantente Seguro.",
-      subtitle: "Hira combina redes sociales con mensajería segura. Comparte publicaciones públicas, únete a comunidades y chatea de forma privada con cifrado de extremo a extremo.",
-      getApp: "Obtener Hira",
-      joinCommunity: "Unirse a la Comunidad",
-      secureChat: "Chat Seguro",
-      socialFeed: "Feed Social",
-      liveStreaming: "Transmisión en Vivo"
-    }
-  }
+const translations: Record<string, any> = {
+  en,
+  es,
+  fr,
+  de,
+  ar,
+  pt,
+  ru,
+  zh,
+  ja,
+  ko,
+  hi,
+  tr,
+  bn,
+  // Add more as needed
 };
 
 let currentLanguage = 'en';
