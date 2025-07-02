@@ -42,9 +42,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-6">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center mr-3">
-                <span className="text-white font-bold text-lg">H</span>
-              </div>
+              <img src="/noshadow.png" alt="Logo" className="w-8 h-8 rounded-lg mr-3 object-cover" />
               <span className="text-2xl font-bold">Hira</span>
             </div>
             <p className="text-gray-300 mb-6">
