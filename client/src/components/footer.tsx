@@ -9,7 +9,7 @@ const footerLinks = {
     { label: "About us", href: "#" },
     { label: "Careers", href: "#" },
     { label: "Brand Center", href: "#" },
-    { label: "Privacy", href: "#" }
+    { label: "Privacy", href: "/privacy-policy" }
   ],
   useHira: [
     { label: "Android", href: "#" },
