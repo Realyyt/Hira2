@@ -4,10 +4,12 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 import { getTranslation } from '@/i18n/config';
 import LanguageSelector from '@/components/language-selector';
+import { useLocation } from "wouter";
 
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [, forceUpdate] = useState({});
+  const [location, setLocation] = useLocation();
 
   useEffect(() => {
     const handleLanguageChange = () => {
@@ -18,12 +20,19 @@ export default function Navigation() {
     return () => window.removeEventListener('language-change', handleLanguageChange);
   }, []);
 
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+  const handleSectionNav = (sectionId: string) => {
+    if (location === "/") {
+      // Already on home, scroll
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+      setMobileMenuOpen(false);
+    } else {
+      // Navigate to home with hash
+      setLocation(`/#${sectionId}`);
+      setMobileMenuOpen(false);
     }
-    setMobileMenuOpen(false);
   };
 
   return (
@@ -42,25 +51,25 @@ export default function Navigation() {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               <button 
-                onClick={() => scrollToSection('features')}
+                onClick={() => handleSectionNav('features')}
                 className="text-gray-300 hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors"
               >
                 {getTranslation('navigation.features')}
               </button>
               <button 
-                onClick={() => scrollToSection('download')}
+                onClick={() => handleSectionNav('download')}
                 className="text-gray-300 hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors"
               >
                 {getTranslation('navigation.download')}
               </button>
               <button 
-                onClick={() => scrollToSection('social')}
+                onClick={() => handleSectionNav('social')}
                 className="text-gray-300 hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors"
               >
                 {getTranslation('navigation.social')}
               </button>
               <button 
-                onClick={() => scrollToSection('security')}
+                onClick={() => handleSectionNav('security')}
                 className="text-gray-300 hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors"
               >
                 {getTranslation('navigation.security')}
@@ -91,25 +100,25 @@ export default function Navigation() {
               <SheetContent side="right" className="w-80">
                 <div className="flex flex-col space-y-6 mt-8">
                   <button 
-                    onClick={() => scrollToSection('features')}
+                    onClick={() => handleSectionNav('features')}
                     className="text-gray-300 hover:text-blue-400 text-left text-lg font-medium transition-colors"
                   >
                     Features
                   </button>
                   <button 
-                    onClick={() => scrollToSection('download')}
+                    onClick={() => handleSectionNav('download')}
                     className="text-gray-300 hover:text-blue-400 text-left text-lg font-medium transition-colors"
                   >
                     Download
                   </button>
                   <button 
-                    onClick={() => scrollToSection('social')}
+                    onClick={() => handleSectionNav('social')}
                     className="text-gray-300 hover:text-blue-400 text-left text-lg font-medium transition-colors"
                   >
                     Social Features
                   </button>
                   <button 
-                    onClick={() => scrollToSection('security')}
+                    onClick={() => handleSectionNav('security')}
                     className="text-gray-300 hover:text-blue-400 text-left text-lg font-medium transition-colors"
                   >
                     Security
